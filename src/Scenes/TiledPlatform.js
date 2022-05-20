@@ -139,7 +139,7 @@ class TiledPlatform extends Phaser.Scene {
         });
         
         this.physics.add.overlap(this.p1, this.bluePowerUpGroup, (obj1, obj2) => {
-            this.powerUpVfxEffect.explode();//explode..
+            this.powerUpVfxEffect.explode();//explode...
             obj2.destroy(); // remove power up
         })
 
